@@ -97,7 +97,6 @@ img {
 }
 
 .testimonial__text {
-  max-width: 28ch;
   font-size: 24px;
   font-weight: 600;
   margin: 16px 0;
@@ -106,7 +105,6 @@ img {
 }
 
 .testimonial__text--secondary {
-  max-width: 40ch;
   opacity: 70%;
 }
 
@@ -121,10 +119,7 @@ img {
       "test5 test5";
     gap: 16px;
   }
-  .testimonial__text,
-  .testimonial__text--secondary {
-    max-width: 80ch;
-  }
+
   .testimonial--1 {
     grid-area: test1;
   }
